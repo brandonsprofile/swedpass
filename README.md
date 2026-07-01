@@ -20,8 +20,9 @@ A focused iOS study app for the Swedish *Knowledge of Society* citizenship exam
 
 ---
 
-> **About this repository.** This is a portfolio case study, not the source code.
-> It documents the product thinking, design decisions, and architecture behind Swedpass.
+> **About this repository.** A portfolio case study documenting the product thinking,
+> design decisions, and architecture behind Swedpass. The full source is private; a few
+> representative Swift files live in [`snippets/`](snippets/) to show the craft.
 > Designed and built by Brandon — Lead Product Designer.
 
 ---
@@ -96,6 +97,17 @@ A small two-tier token system (primitives → semantic roles) so layout decision
 | **Distribution** | iPhone-only, portrait, fully offline |
 
 The session engine is fully unit-tested (tier counts, scoring, mode rules) independent of the UI — the app's logic is verifiable without a single screen.
+
+---
+
+## Code excerpts
+
+A few representative Swift files in [`snippets/`](snippets/), chosen to back up the decisions above (the full source is private):
+
+- **[`ContentArea.swift`](snippets/ContentArea.swift)** — the 10 syllabus areas + the 8/6/4 test weighting as one editable source of truth
+- **[`ModeConfig.swift`](snippets/ModeConfig.swift)** — "one screen, many modes" expressed as data, not branching
+- **[`SessionBuilder.swift`](snippets/SessionBuilder.swift)** — tiered, thin-bank-safe, seedable session engine
+- **[`Theme.swift`](snippets/Theme.swift)** — the two-tier design-token system + native-backed semantic colors
 
 ---
 
