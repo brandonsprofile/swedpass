@@ -9,6 +9,13 @@ A focused iOS study app for the Swedish *Knowledge of Society* citizenship exam
 
 [**swedpass.com**](https://swedpass.com) · [**Download on the App Store**](https://apps.apple.com/app/id6785233680)
 
+<br>
+
+![Swift](https://img.shields.io/badge/Swift-F05138?style=flat&logo=swift&logoColor=white)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-0071E3?style=flat&logo=swift&logoColor=white)
+![iOS 17+](https://img.shields.io/badge/iOS-17%2B-000000?style=flat&logo=apple&logoColor=white)
+![StoreKit 2](https://img.shields.io/badge/StoreKit_2-1575F9?style=flat&logo=apple&logoColor=white)
+
 </div>
 
 ---
